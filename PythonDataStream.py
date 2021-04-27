@@ -7,6 +7,7 @@ Created on Sun Jan 31 10:27:57 2021
 @author: kathy
 """
 import socket
+import pandas as pd
 
 s = socket.socket()
 s.bind(('0.0.0.0', 8090))
